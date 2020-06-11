@@ -11,7 +11,7 @@ class Enemy {
         fill(255,5,0);
         image(fuelImg,this.x, this.y)
         fuelImg.resize(this.s, this.s)
-        this.x -= 5 +(3 * points);
+        this.x -=(6 + frameCount/300);;
     }
 
     
