@@ -2,8 +2,8 @@ class Car {
     constructor(){
         this.x = displayWidth/8;
         this.y = displayHeight/2;
-        this.w = 100;
-        this.h = 80;
+        this.w = 80;
+        this.h = 60;
     }
 
     renderer(){
