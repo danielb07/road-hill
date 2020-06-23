@@ -9,8 +9,8 @@ var fuelImg,carImg
 var gamestate = 0; 
  
 preload = () =>{
-    fuelImg = loadImage("fuel.png")
-    carImg = loadImage("car.png")
+    fuelImg = loadImage("imgs/fuel.png")
+    carImg = loadImage("imgs/car.png")
 }
 
 function setup() {
